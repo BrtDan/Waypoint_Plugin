@@ -1,0 +1,28 @@
+name: tpPoint
+version: '1.0.0'
+main: org.test.tppoint.TpPoint
+api-version: '1.20'
+commands:
+  setwaypoint:
+    description: Set a waypoint.
+    usage: /setwaypoint <waypoint_name>
+  teleport:
+    description: Teleport to a waypoint.
+    usage: /teleport <waypoint_name>
+  deletewaypoint:
+    description: Delete a waypoint.
+    usage: /deletewaypoint <waypoint_name>
+  waypoints:
+    description: Show a list of waypoints.
+    usage: /waypoints
+
+permissions:
+  tppoint.command.setwaypoint:
+    description: Allows player to set a waypoint.
+    default: true
+  tppoint.command.teleport:
+    description: Allows player to teleport to a waypoint.
+    default: true
+  tppoint.command.deletewaypoint:
+    description: Allows player to delete a waypoint.
+    default: true
