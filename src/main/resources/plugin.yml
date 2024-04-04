@@ -26,3 +26,6 @@ permissions:
   tppoint.command.deletewaypoint:
     description: Allows player to delete a waypoint.
     default: true
+  tppoint.command.teleport.delayed:
+    description: Allows player to teleport to a waypoint with a delay.
+    default: true
